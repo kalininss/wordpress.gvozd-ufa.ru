@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "Lasco";
+	src: url("../fonts/LascoBold/LascoBold.eot");
+	src: url("../fonts/LascoBold/LascoBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/LascoBold/LascoBold.woff") format("woff"),
+			 url("../fonts/LascoBold/LascoBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Lasco";
+	src: url("../fonts/LascoRegular/LascoRegular.eot");
+	src: url("../fonts/LascoRegular/LascoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/LascoRegular/LascoRegular.woff") format("woff"),
+			 url("../fonts/LascoRegular/LascoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "BeauSansPro";
+	src: url("../fonts/BeauSansPro/PFBeauSansPro-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: "BeauSansPro";
+	src: url("../fonts/BeauSansPro/PFBeauSansPro-Reg.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "BeauSansPro";
+	src: url("../fonts/BeauSansPro/PFBeauSansPro-SeBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 600;
+}

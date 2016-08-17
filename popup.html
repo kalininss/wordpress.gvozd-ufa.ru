@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		body {
+			min-width: 200px;
+		}
+		.fz24 {
+			line-height: 2;
+		}
+		/* Custom, iPhone Retina */
+		@media only screen and (max-width : 480px) {
+			.form-second_popup {
+				width: 240px;
+				margin: 0 auto 0;
+			}
+			.form-second_popup .input {
+				width: 240px;
+			}
+			.form-second_popup .input_submit {
+				margin-left: 0;
+				width: 240px;
+				height: 63px;
+				line-height: 50px;
+				padding: 0px 0;
+				display: block;
+				background-position: bottom;
+				background-size: contain;
+				background-repeat: no-repeat;
+			}
+			.fz24 {
+				font-size: 22px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<form class="form-second form-second_popup">
+		<div class="fz24 form-second__title">Забронировать столик</div>
+
+		<input type="text" required name="name" class="input" placeholder="Ваше имя">
+		<input type="text" required name="phone" class="input" placeholder="Ваш телефон">
+		<input type="submit" class="input input_submit" value="Забронировать">
+	</form>
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
